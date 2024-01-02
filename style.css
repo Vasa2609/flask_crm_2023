@@ -1,0 +1,15 @@
+html {
+    background-color: darkmagenta;
+    text-align: center;
+}
+
+.button {
+    background-color: aqua;
+    border: none;
+    color: white; splay: inline-block;
+    padding: 8px 16px;
+}
+
+form > * {
+    margin: 6px;
+}
