@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Учасники групи</h2>
+
+<form method="post">
+    <label for="surname">Введи прізвище студента</label><br>
+    <input type="text" id="surname" name="surname"><br>
+
+    <label for="name">Введи ім'я студента</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="age">Введи вік студента</label><br>
+    <input type="text" id="age" name="age"><br>
+
+    <label for="home_address">Введи адрес студента</label><br>
+    <input type="text" id="home_address" name="home_address"> <br>
+
+    <input type="submit" value="Додати" class="button">
+
+</form>
+{% endblock %}
